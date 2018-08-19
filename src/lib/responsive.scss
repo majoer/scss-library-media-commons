@@ -1,0 +1,19 @@
+@mixin desktop() {
+  @media (min-width: 70em) { @content ; }
+}
+
+@mixin laptop() {
+  @media (min-width: 64em) { @content ; }
+}
+
+@mixin tablet() {
+  @media (min-width: 50em) { @content ; }
+}
+
+@mixin phablet() {
+  @media (min-width: 37.5em) { @content ; }
+}
+
+@mixin mobileonly() {
+  @media (max-width: 37.5em) { @content ; }
+}

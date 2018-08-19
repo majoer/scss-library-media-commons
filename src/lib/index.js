@@ -1,3 +1,7 @@
-import { index } from './index.scss';
+import { typography } from './typography.scss';
+import { responsive } from './responsive.scss';
 
-export default { index };
+export default {
+  typography,
+  responsive
+};
