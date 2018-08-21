@@ -1,5 +1,5 @@
 {
-  "name": "scss-media-commons",
+  "name": "scss-library-media-commons",
   "version": "1.0.0",
   "description": "",
   "main": "src/lib/index.js",
