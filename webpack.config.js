@@ -1,5 +1,3 @@
-const HtmlWebPackPlugin = require("html-webpack-plugin");
-
 module.exports = {
   entry: './src/lib/index.js',
   mode: 'production',
